@@ -9,6 +9,8 @@
 import Foundation
 
 public class Calculator {
+    public init() { }
+    
     public func add(op1: Int, op2: Int) -> Int {
         return op1 + op2
     }
