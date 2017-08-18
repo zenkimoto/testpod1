@@ -17,7 +17,7 @@ public class Calculator {
         return op1 - op2
     }
     
-    public func multiply(op1: Int, opt2: Int) -> Int {
+    public func multiply(op1: Int, op2: Int) -> Int {
         return op1 * op2
     }
 }
