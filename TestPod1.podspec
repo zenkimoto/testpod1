@@ -26,9 +26,16 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                 Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
+                Blah blah blah blah blah blah....
                    DESC
 
-  s.homepage     = "https://github.com/zenkimoto/testpod1"
+  s.homepage     = "http://bluecloud.io"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,8 +71,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
