@@ -7,19 +7,20 @@
 //
 
 import Foundation
+import PromiseKit
 
 public class Calculator {
     public init() { }
     
-    public func add(op1: Int, op2: Int) -> Int {
-        return op1 + op2
+    public func add(op1: Int, op2: Int) -> Promise<Int> {
+        return Promise(value: op1 + op2)
     }
     
-    public func subtract(op1: Int, op2: Int) -> Int {
-        return op1 - op2
+    public func subtract(op1: Int, op2: Int) -> Promise<Int> {
+        return Promise(value: op1 - op2)
     }
     
-    public func multiply(op1: Int, op2: Int) -> Int {
-        return op1 * op2
+    public func multiply(op1: Int, op2: Int) -> Promise<Int> {
+        return Promise(value: op1 * op2)
     }
 }

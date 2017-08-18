@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestPod1"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a test pod to learn creating a Cocoapod."
 
   # This description is used to generate tags and improve search results.
@@ -139,6 +139,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "PromiseKit", "~> 4.3"
 
 end
